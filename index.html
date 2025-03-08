@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shriram M - Portfolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="Assets\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Assets\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Assets\favicon-16x16.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="light-mode">
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo manga-text">SHRIRAM M</div>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="manga-text">Home</a></li>
+                <li><a href="#about" class="manga-text">About</a></li>
+                <li><a href="#skills" class="manga-text">Skills</a></li>
+                <li><a href="#experience" class="manga-text">Experience</a></li>
+                <li><a href="#projects" class="manga-text">Projects</a></li>
+                <li><a href="#gallery" class="manga-text">Gallery</a></li>
+                <li><a href="#contact" class="manga-text">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="menu-toggle" id="menu-toggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="manga-bg-text">アライズ!</div>
+        <div class="manga-bg-text right">リョウイキテンカイ!</div>
+        <div class="container">
+            <div class="comic-panel hero-panel">
+                <div class="new-badge manga-text">HELLO!</div>
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="manga-text">
+                            <span class="highlight">SHRIRAM M</span>
+                            <span class="block">FULL STACK DEVELOPER</span>
+                        </h1>
+                        <div class="speech-bubble">
+                            <p>I'm a developer and designer who loves solving problems and creating seamless interfaces. I enjoy adding creativity with logic to build solutions that are both functional and visually appealing.</p>
+                        </div>
+                        <a href="#projects"><button class="manga-button manga-text">
+                            VIEW MY WORK <i class="fas fa-arrow-right"></i>
+                        </button></a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="Assets\Avatar.png" alt="Shriram M">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title manga-text">ABOUT ME</h2>
+            
+            <div class="comic-panels">
+                <div class="comic-panel">
+                    <h3 class="manga-text">MY STORY</h3>
+                    <div class="speech-bubble">
+                        <p>
+                            I've always been drawn to design and development. Whether coding an application or refining a user interface, I like to create work that is clear, effective, and user-friendly. 
+                            I believe that great design and development come from understanding both the big picture and the small details, bringing ideas to life in the best way possible.
+                        </p>
+                    </div>
+                    <div class="speech-bubble">
+                        <p>
+                            With experience in web development, machine learning, and graphic design,
+                            I bring creative solutions to technical challenges.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="comic-panel">
+                    <h3 class="manga-text">EDUCATION</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>2020 - 2024</h4>
+                                <p>SNS College of Technology, Coimbatore</p>
+                                <p>BE Computer Science & Engineering</p>
+                                <p>CGPA - 8.56</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>2019 - 2020</h4>
+                                <p>Montfort Matric Hr. Sec. School, Ariyalur</p>
+                                <p>HSC - 77%</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>2017 - 2018</h4>
+                                <p>Montfort Matric Hr. Sec. School, Ariyalur</p>
+                                <p>SSLC - 93%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title manga-text">MY SKILLS</h2>
+            
+            <div class="comic-panels">
+                <div class="comic-panel">
+                    <h3 class="manga-text">TECHNICAL SKILLS</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-name">Angular JS, HTML/CSS/JS</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Springboot</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Python</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Java</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Adobe Photoshop & Illustrator</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">MySQL/MongoDB</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="comic-panel">
+                    <h3 class="manga-text">SOFT SKILLS & LANGUAGES</h3>
+                    <h4>Certifications</h4>
+                    <ul class="certification-list">
+                        <li>TCS NQT - 79% - 2024</li>
+                        <li>Computer Vision-NPTEL-2022</li>
+                        <li>Java-Prepinsta-2022</li>
+                        <li>DSA in Java-Prepinsta-2022</li>
+                        <li>Python-Naan Mudhalvan-2022</li>
+                    </ul>
+                    <div class="skills-section">
+                        <h4>Soft Skills</h4>
+                        <div class="tag-cloud">
+                            <span class="tag">Communication</span>
+                            <span class="tag">Team Work</span>
+                            <span class="tag">Self Learner</span>
+                            <span class="tag">Creativity</span>
+                            <span class="tag">Problem Solving</span>
+                            <span class="tag">Adaptability</span>
+                        </div>
+                        
+                        <h4>Languages</h4>
+                        <div class="language-skills">
+                            <div class="language-item">
+                                <span>Tamil</span>
+                                <div class="language-level">
+                                    <span class="active">R</span>
+                                    <span class="active">W</span>
+                                    <span class="active">S</span>
+                                </div>
+                            </div>
+                            <div class="language-item">
+                                <span>English</span>
+                                <div class="language-level">
+                                    <span class="active">R</span>
+                                    <span class="active">W</span>
+                                    <span class="active">S</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title manga-text">EXPERIENCE</h2>
+            
+            <div class="comic-panels">
+                <div class="comic-panel">
+                    <h3 class="manga-text">ACHIEVEMENTS</h3>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h4>Project Expo 2022 Runner up</h4>
+                            <p>Held at SNSCT, Coimbatore</p>
+                        </div>
+                    </div>
+                    
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h4>Graphic Designer</h4>
+                            <p>REGEX club of CSE dept. SNSCT</p>
+                        </div>
+                    </div>
+                    
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h4>Area of Interest</h4>
+                            <div class="interest-tags">
+                                <span>Web Development</span>
+                                <span>Graphic Design</span>
+                                <span>Machine Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comic-panel">
+                    <h3 class="manga-text">INTERNSHIPS</h3>
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h4>Iamneo.ai</h4>
+                            <span class="experience-date">2024-25 (6 Months)</span>
+                        </div>
+                        <p class="experience-role">Role: Programming Problem Setter</p>
+                        <p class="experience-desc">Engaged in creating coding questions for Exams and Assessments in various languages like C, C++, Python, Java and SQL.</p>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h4>FieldEz Technologies</h4>
+                            <span class="experience-date">2023 (5 Months)</span>
+                        </div>
+                        <p class="experience-role">Role: Full Stack Development</p>
+                        <p class="experience-desc">Engaged in creating websites using HTML, CSS, Angular js, Springboot.</p>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h4>Shalom Web Solutions</h4>
+                            <span class="experience-date">2022 (1 Month)</span>
+                        </div>
+                        <p class="experience-role">Role: Web Design Intern</p>
+                        <p class="experience-desc">Worked on web design projects using Java and PHP technologies to create visually appealing and user-friendly websites.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title manga-text">MY PROJECTS</h2>
+            
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="comic-panel project-panel">
+                    <div class="project-image">
+                        <img src="Assets\Leaf Disease Detection.png" alt="Leaf Disease Detection">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="manga-text">Leaf Disease Detection</h3>
+                        <p>A project focused on developing a machine learning model to detect diseases in plant leaves using computer vision.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Computer Vision</span>
+                            <span>Agriculture</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://colab.research.google.com/drive/1zpXbu1TIHH93UGw2np01Fsnm7tzTH8HJ?usp=sharing" target="_blank" class="highlight">Google Colab <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="comic-panel project-panel">
+                    <div class="project-image">
+                        <img src="Assets\Speech Emotion Recognition.png" alt="Speech Emotion Recognition">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="manga-text">Speech Emotion Recognition</h3>
+                        <p>A project aimed at developing a machine learning model capable of recognizing emotions from speech signals.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Audio Analysis</span>
+                            <span>Emotion Recognition</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://colab.research.google.com/drive/1fzuJoH1qM-phuXT3K-LwaEigda-l9xW3?usp=sharing" target="_blank" class="highlight">Google Colab <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="comic-panel project-panel">
+                    <div class="project-image">
+                        <img src="Assets\Neural Style Transfer.png" alt="Neural Style Transfer">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="manga-text">Neural Style Transfer</h3>
+                        <p>A project focused on developing an application that converts normal images into artistic paintings.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Computer Vision</span>
+                            <span>Deep Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://colab.research.google.com/drive/1_Z0AIJ2O6UMRxrPSacbpIAtijyAW4fS-?usp=sharing" target="_blank" class="highlight">Google Colab <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section (Carousel) -->
+    <section id="gallery" class="gallery section comic-panel">
+        <div class="container">
+            <h2 class="section-title manga-text">GALLERY</h2>
+            
+            <div class="speech-bubble">
+                <p>Check out some of my favorite artwork and inspirations!</p>
+            </div>
+            
+            <div class="carousel-container">
+                <div class="carousel-track" id="carousel-track">
+                    <!-- Carousel Items -->
+                    <a href="https://shriramm29.github.io/Gallery/" target="_blank" class="carousel-item">
+                        <div class="carousel-card">
+                            <img src="Gallery\Bauhaus_Pattern.png" alt="Bauhaus_Pattern">
+                            <div class="carousel-caption">
+                                <h3 class="manga-text">Artwork #1</h3>
+                                <p>Bauhaus_Pattern</p>
+                            </div>
+                            <div class="visit-badge manga-text">Visit Site</div>
+                        </div>
+                    </a>
+                    
+                    <a href="https://shriramm29.github.io/Gallery/" target="_blank" class="carousel-item">
+                        <div class="carousel-card">
+                            <img src="Gallery\Circles in a circle.png" alt="Circles in a circle">
+                            <div class="carousel-caption">
+                                <h3 class="manga-text">Artwork #2</h3>
+                                <p>Circles in a circle</p>
+                            </div>
+                            <div class="visit-badge manga-text">Visit Site</div>
+                        </div>
+                    </a>
+                    
+                    <a href="https://shriramm29.github.io/Gallery/" target="_blank" class="carousel-item">
+                        <div class="carousel-card">
+                            <img src="Gallery\Composition.png" alt="Composition">
+                            <div class="carousel-caption">
+                                <h3 class="manga-text">Artwork #3</h3>
+                                <p>Composition</p>
+                            </div>
+                            <div class="visit-badge manga-text">Visit Site</div>
+                        </div>
+                    </a>
+                    
+                    <a href="https://shriramm29.github.io/Gallery/" target="_blank" class="carousel-item">
+                        <div class="carousel-card">
+                            <img src="Gallery\Starry_Night_Paper.png" alt="Starry_Night_Paper">
+                            <div class="carousel-caption">
+                                <h3 class="manga-text">Artwork #4</h3>
+                                <p>Starry_Night_Paper</p>
+                            </div>
+                            <div class="visit-badge manga-text">Visit Site</div>
+                        </div>
+                    </a>
+                    
+                    <a href="https://shriramm29.github.io/Gallery/" target="_blank" class="carousel-item">
+                        <div class="carousel-card">
+                            <img src="Gallery\Sphere_V1.png" alt="Sphere">
+                            <div class="carousel-caption">
+                                <h3 class="manga-text">Artwork #5</h3>
+                                <p>Sphere</p>
+                            </div>
+                            <div class="visit-badge manga-text">Visit Site</div>
+                        </div>
+                    </a>
+                    
+                    <a href="https://shriramm29.github.io/Gallery/" target="_blank" class="carousel-item">
+                        <div class="carousel-card">
+                            <img src="Gallery\Starry_Night.png" alt="Starry_Night">
+                            <div class="carousel-caption">
+                                <h3 class="manga-text">Artwork #6</h3>
+                                <p>Starry_Night</p>
+                            </div>
+                            <div class="visit-badge manga-text">Visit Site</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Carousel Controls -->
+                <button class="carousel-control prev" id="carousel-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-control next" id="carousel-next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators" id="carousel-indicators"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title manga-text">GET IN TOUCH</h2>
+            
+            <div class="comic-panels">
+                <div class="comic-panel">
+                    <h3 class="manga-text">SEND ME A MESSAGE</h3>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Your message" required></textarea>
+                        </div>
+                        <button type="submit" class="manga-button manga-text">SEND MESSAGE</button>
+                    </form>
+                </div>
+                
+                <div class="comic-panel">
+                    <h3 class="manga-text">CONTACT INFO</h3>
+                    <div class="contact-info">
+                        <div class="speech-bubble">
+                            <p><strong>Let's work together on your next project!</strong></p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+917339255289">+91 73392 55289</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p><a href="mailto:shriramcsec@gmail.com">shriramcsec@gmail.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>GitHub</h4>
+                                <p><a href="https://github.com/ShriramM29" target="_blank">github.com/ShriramM29</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p><a href="https://www.google.com/maps/search/?api=1&query=Ariyalur,Tamil+Nadu" target="_blank">
+                                    Ariyalur, Tamil Nadu
+                                </a></p>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="manga-text">SHRIRAM M</div>
+                    <p>© <span id="current-year"></span> All Rights Reserved</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/ShriramM29" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/shriram-m-dev" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:shriramcsec@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
